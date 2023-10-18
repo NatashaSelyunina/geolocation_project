@@ -1,0 +1,56 @@
+body {
+  display: flex;
+}
+
+.div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 450px;
+  margin-top: 50px;
+  margin-left: 50px;
+  padding-top: 40px;
+  border-radius: 8%;
+  background-image: linear-gradient(to bottom right, yellow, orange, rgb(184, 23, 160), rgb(105, 29, 191), blue);
+}
+
+.headingCity {
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.degrees {
+  font-size: 50px;
+}
+
+.degrees::after {
+  content: "°";
+}
+
+.divWind {
+  display: flex;
+  flex-direction: row;
+}
+
+.wind {
+  display: flex;
+}
+
+.divImg {
+  box-sizing: border-box;
+  width: 30px;
+  height: 25px;
+  margin-top: 1.3em;
+  margin-left: 20px;
+}
+
+.text {
+  display: flex;
+  text-align: justify;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 30px;
+  font-size: large;
+  font-weight: bolder;
+}
